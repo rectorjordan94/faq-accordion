@@ -26,7 +26,7 @@ svg {
   /* height: 500px; */
   padding: 1em 2em;
   border-radius: 1em;
-  max-width: 600px;
+  max-width: 465px;
   padding-bottom: 0em;
 }
 
@@ -45,6 +45,7 @@ svg {
   justify-content: space-between;
   padding: .75em;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .title {
@@ -71,6 +72,7 @@ svg {
 .show-hide-button {
   border: none;
   background-color: #ffffff;
+  padding-left: 1em;
 }
 
 .show-hide-button {
