@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+svg {
+  pointer-events: none;
+}
+
 .purple-background {
   position: absolute;
   top: 0%;
@@ -67,6 +71,10 @@
 .show-hide-button {
   border: none;
   background-color: #ffffff;
+}
+
+.show-hide-button {
+  cursor: pointer;
 }
 
 .hidden {
