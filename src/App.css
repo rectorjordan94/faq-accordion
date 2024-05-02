@@ -1,9 +1,45 @@
 .App {
   text-align: center;
   background-color: hsl(275, 100%, 97%);
+  position: relative;
+  width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purple-background {
+  position: absolute;
+  top: 0%;
+}
+
+.faq-outer {
+  background-color: #ffffff;
+  position: absolute;
+  /* height: 500px; */
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.faq-inner {
+
+}
+
+.question-container {
+
+}
+
+.question {
+
+}
+
+.show-hide-button {
+
 }
 
 .hidden {
   display: none;
 }
+
+
