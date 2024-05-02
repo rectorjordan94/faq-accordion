@@ -1,18 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const FaqAccordion = (props) => {
 
     // need a way to show/hide the anwers to the faq questions based on if the text of the question or the buttons are clicked
     // will probably need to use 'useEffect' to change the state of each question's answer from invisible to visible
-
-    const [showAnswer, setShowAnswer] = useState(false)
-    const [buttonSvg, setButtonSvg] = useState(<></>)
     // const [questionClicked, setQuestionClicked] = useState('')
 
     // console.log(props.faqs)
 
     const handleClick = (e) => {
-        setShowAnswer(prev => !prev)
         
         const answerToShow = document.querySelector(`#p-${e.target.dataset.key}`)
         const buttonToChange = document.querySelector(`#button-${e.target.dataset.key}`)
