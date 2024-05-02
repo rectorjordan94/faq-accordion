@@ -59,6 +59,11 @@
   padding: 0;
 }
 
+.question:hover {
+  cursor: pointer;
+  color: #b42bf4;
+}
+
 .show-hide-button {
   border: none;
   background-color: #ffffff;
