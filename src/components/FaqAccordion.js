@@ -6,15 +6,15 @@ const FaqAccordion = (props) => {
     // will probably need to use 'useEffect' to change the state of each question's answer from invisible to visible
 
     const [showAnswer, setShowAnswer] = useState(false)
-    const [questionClicked, setQuestionClicked] = useState('')
+    // const [questionClicked, setQuestionClicked] = useState('')
 
     // console.log(props.faqs)
 
     const handleClick = (e) => {
         setShowAnswer(prev => !prev)
-        console.log(e.target.dataset.key)
+        // console.log(e.target.dataset.key)
         const answerToShow = document.querySelector(`#p-${e.target.dataset.key}`)
-        console.log(answerToShow)
+        // console.log(answerToShow)
         if (answerToShow.style.display === 'none') {
             answerToShow.style.display = 'inline'
         } else {
@@ -27,21 +27,21 @@ const FaqAccordion = (props) => {
     const faqs = props.faqs.map((faq, i) => {
 
         return (
-            <div className="faq" key={i}>
-                <div>
-                    <h3>{faq.question}</h3>
-                    <button onClick={handleClick} value={faq.answer} data-key={i}>+</button>
+            <div className="faq-inner" key={i}>
+                <div className="question-container">
+                    <button className="question" onClick={handleClick} data-key={i}>{faq.question}</button>
+                    <button className="show-hide-button" onClick={handleClick} value={faq.answer} data-key={i}>+</button>
                 </div>
-                <p className="hidden" id={`p-${i}`}>{faq.answer}</p>
+                <p className="hidden answer" id={`p-${i}`}>{faq.answer}</p>
             </div>
         )
     })
 
     return (
-        <>
-            <h1>FAQs</h1>
+        <div className="faq-outer">
+            <h1 className="title">FAQs</h1>
             {faqs}
-        </>
+        </div>
     )
 }
 
