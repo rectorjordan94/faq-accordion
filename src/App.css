@@ -98,3 +98,49 @@ hr {
 #hr-3 {
   border: none;
 }
+/* 
+@media (max-width: 853px) {
+  .faq-outer {
+    width: 80%;
+    max-width: none;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  .question {
+    font-size: 2em;
+    text-align: start;
+  }
+
+  .answer {
+    font-size: 1.5em;
+  }
+
+} */
+
+@media (max-width: 600px) {
+
+  .faq-outer {
+    max-width: none;
+    width: 70%;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .question {
+    font-size: 1em;
+    text-align: start;
+  }
+
+  .answer {
+    font-size: 1em;
+  }
+
+  svg {
+    /* max-width: 375px; */
+  }
+}
