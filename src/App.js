@@ -2,7 +2,7 @@ import './App.css';
 import FaqAccordion from './components/FaqAccordion';
 
 const faqs = [
-  { question: "What is Frontend Mentor, and how will it help me?', answer: 'Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building."},
+  { question: "What is Frontend Mentor, and how will it help me?", answer: "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building."},
   { question: "Is Frontend Mentor free?", answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis eveniet quos iure officiis rerum, aperiam iste nesciunt dolores excepturi, doloremque, nemo veniam suscipit reiciendis distinctio. Quo soluta distinctio eligendi modi."},
   { question: "Can I use Frontend Mentor projects in my portfolio?", answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil, perferendis suscipit praesentium aliquam nisi corrupti? Quos necessitatibus perspiciatis sequi qui est ex maiores distinctio facilis reprehenderit. Dolores, perferendis expedita!"},
   { question: "How can I get help if I'm stuck on a challenge?", answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem placeat voluptatibus quae asperiores. Vitae voluptas repellat quos enim, dolorem nihil mollitia, soluta natus culpa consequuntur quam maxime vero harum dolor."},
